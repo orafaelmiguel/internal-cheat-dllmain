@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Arquivos de Origem">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Arquivos de Cabeçalho">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Arquivos de Recurso">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Arquivos de Origem\Hooks">
+      <UniqueIdentifier>{740879cc-4567-45f2-855b-7afb61a1b294}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Origem\Hooks\Hooks_Core">
+      <UniqueIdentifier>{0a1ad7ee-ffb0-4f16-b861-e31dfbf7eebb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Origem\Hooks\Hooks_Main">
+      <UniqueIdentifier>{eb38fbc9-1b71-424d-b27e-23b5107ab326}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Origem\Hooks\Minhook">
+      <UniqueIdentifier>{d0854ee4-7552-4087-b2f3-c50a60dd68d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Origem\Hooks\Minhook\Hde">
+      <UniqueIdentifier>{f1eff7f0-89d4-45b0-8451-51c45c6b20ab}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooks\MinHook\Hde\hde32.c">
+      <Filter>Arquivos de Origem\Hooks\Minhook\Hde</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooks\MinHook\Hde\hde64.c">
+      <Filter>Arquivos de Origem\Hooks\Minhook\Hde</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooks\MinHook\buffer.c">
+      <Filter>Arquivos de Origem\Hooks\Minhook</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooks\MinHook\hook.c">
+      <Filter>Arquivos de Origem\Hooks\Minhook</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooks\MinHook\trampoline.c">
+      <Filter>Arquivos de Origem\Hooks\Minhook</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Hooks\MinHook\Hde\hde32.h">
+      <Filter>Arquivos de Origem\Hooks\Minhook\Hde</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks\MinHook\Hde\hde64.h">
+      <Filter>Arquivos de Origem\Hooks\Minhook\Hde</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks\MinHook\Hde\pstdint.h">
+      <Filter>Arquivos de Origem\Hooks\Minhook\Hde</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks\MinHook\Hde\table32.h">
+      <Filter>Arquivos de Origem\Hooks\Minhook\Hde</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks\MinHook\Hde\table64.h">
+      <Filter>Arquivos de Origem\Hooks\Minhook\Hde</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks\MinHook\buffer.h">
+      <Filter>Arquivos de Origem\Hooks\Minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks\MinHook\trampoline.h">
+      <Filter>Arquivos de Origem\Hooks\Minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Downloads\minhook-1.3.3\include\MinHook.h">
+      <Filter>Arquivos de Origem\Hooks\Minhook</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
