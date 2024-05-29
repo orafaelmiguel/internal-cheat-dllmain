@@ -70,6 +70,10 @@
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <IncludePath>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x64;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
@@ -144,6 +148,8 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="Hooks\Hooks_Core\Hooks_Present.cpp" />
+    <ClCompile Include="Hooks\Kiero\kiero.cpp" />
     <ClCompile Include="Hooks\MinHook\buffer.c" />
     <ClCompile Include="Hooks\MinHook\Hde\hde32.c" />
     <ClCompile Include="Hooks\MinHook\Hde\hde64.c" />
@@ -160,6 +166,8 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\..\..\Downloads\minhook-1.3.3\include\MinHook.h" />
+    <ClInclude Include="Hooks\Hooks_Core\Hooks_Present.h" />
+    <ClInclude Include="Hooks\Kiero\kiero.h" />
     <ClInclude Include="Hooks\MinHook\buffer.h" />
     <ClInclude Include="Hooks\MinHook\Hde\hde32.h" />
     <ClInclude Include="Hooks\MinHook\Hde\hde64.h" />

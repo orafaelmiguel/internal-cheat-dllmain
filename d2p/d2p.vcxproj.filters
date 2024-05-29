@@ -34,6 +34,9 @@
     <Filter Include="Arquivos de Origem\Menu">
       <UniqueIdentifier>{66deb3f7-4fd3-47f6-9074-26df0053d184}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Arquivos de Origem\Hooks\Kiero">
+      <UniqueIdentifier>{310cac86-fb31-4615-836a-b736b4f667b4}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="dllmain.cpp">
@@ -77,6 +80,12 @@
     </ClCompile>
     <ClCompile Include="Menu\Menu.cpp">
       <Filter>Arquivos de Origem\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooks\Hooks_Core\Hooks_Present.cpp">
+      <Filter>Arquivos de Origem\Hooks\Hooks_Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooks\Kiero\kiero.cpp">
+      <Filter>Arquivos de Origem\Hooks\Kiero</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -130,6 +139,12 @@
     </ClInclude>
     <ClInclude Include="Menu\Menu.h">
       <Filter>Arquivos de Origem\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks\Hooks_Core\Hooks_Present.h">
+      <Filter>Arquivos de Origem\Hooks\Hooks_Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks\Kiero\kiero.h">
+      <Filter>Arquivos de Origem\Hooks\Kiero</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
