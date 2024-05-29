@@ -3,6 +3,8 @@
 
 namespace KieroHooks
 {
-	void init();
-	void shutdown();
+	inline bool Imgui_Init = false;
+	void InitImgui();
+	void Shutdown_Menu();
+	void Init_Menu();
 }

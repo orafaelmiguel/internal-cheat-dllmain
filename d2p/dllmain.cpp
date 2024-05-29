@@ -3,15 +3,16 @@
 #include <cstdio>
 #include <iostream>
 #include "Hooks/MinHook/MinHook.h"
+#include "Hooks/Hooks_core/Hooks_Present.h"
 
 void start()
 {
-    MH_Initialize();
     Beep(500, 800);
     AllocConsole();
     FILE* f;
     freopen_s(&f, "CONOUT$", "w", stdout);
     std::cout << "Injection" << std::endl;
+    KieroHooks::Init_Menu();
 }
 
 void DllThread()

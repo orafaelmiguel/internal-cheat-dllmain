@@ -2,7 +2,7 @@
 
 namespace Menu
 {
-	bool isVisible;
+	inline bool isVisible;
 	void Render();
 	void Style();
 }
